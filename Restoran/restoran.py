@@ -3,7 +3,6 @@ class SOFFATM:
     def __init__(self):
         self.pin = ""
         self.balnace = 0
-        # self.menu()
         self.restoranga = Restoran(self)
 
 
@@ -102,8 +101,6 @@ class SOFFATM:
 class Restoran:
 
     def __init__(self,atm):
-        self.zakas_soni = 0
-        # self.menu1()
         self.atm = atm
 
 
